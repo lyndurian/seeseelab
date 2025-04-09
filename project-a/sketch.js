@@ -25,12 +25,12 @@ function setup() {
 let canvas = createCanvas(800, 500);
     canvas.id("p5-canvas");
      canvas.parent("p5-canvas-container");
-     document.getElementById('p5-canvas-container').style.cursor='none';
+    // document.getElementById('p5-canvas-container').style.cursor='none';
   floorX = 0;              
   frameRate(60);           
   setEyePosition();       
   octoX = width / 2;       
-  octoY = height / 2;      
+  octoY = height / 2;     
                 
 }
 
